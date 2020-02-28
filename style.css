@@ -1,0 +1,42 @@
+body
+{
+	margin: 0px;
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+}
+
+img
+{
+     width: 350px;
+     height: 350px;
+     margin: 10px;
+     transition: all 0.4s;
+}
+
+img:hover
+{
+	transform: scale(1.1);
+}
+
+.container
+{
+	display: flex; /*Flex Box*/
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1
+{
+	font-family: fantasy;
+	font-size: 3em;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 400px;
+	text-align: center;
+	margin-top: 0px;
+	/*-moz-box-shadow: 4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;*/
+	box-shadow: 4px 4px 5px #ffffff;
+}
